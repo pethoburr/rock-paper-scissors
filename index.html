@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="http://fonts.cdnfonts.com/css/callie-chalk-font" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
+    <header>
+        <title>Rock, Paper, Scissors</title>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            How to play
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">How to play:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Pick between one of three options :rock,paper,scissors. Game is up to 5 and rules are: rock beats scissors and loses to paper, paper beats rock and loses to scissors, scissors beats paper and loses to rock.Goodluck!
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
 </head>
 <body>
-    <script src="scripts.js"></script>
+    <div class="page-container">
+        <div class="content-wrap">
+            <h1><ul>
+                <li id="title">ROCK,</li>
+                <li id="title">PAPER,</li>
+                <li id="title">SCISSORS</li>
+            </ul></h1>
+            <p>SCORES</p>
+            <div class="scoreboard">
+                <ul>
+                    <li>YOU:</li>
+                    <li>CPU:</li>
+                </ul>
+            </div>
+            <div class="scores">
+                <ul class="list">
+                    <li id="score" data-your-score>0</li>
+                    <li id="score" data-computer-score>0</li>
+                </ul>
+            </div>
+            <ul data-postgame-message>
+                <li><button class="rock" data-selection="rock">ROCK<div><img src="footrock.webp" alt="the rock"></div></button></li>
+                <li><button class="paper" data-selection="paper">PAPER<div><img src="stacks.jpg"></div></button></li>
+                <li><button class="scissors" data-selection="scissors">SCISSORS<div><img src="scissorsguy.webp""></div></button></li>
+            </ul>
+            <div class="results">
+                <div>Your pick:</div>
+                <div data-final-column>Computer pick:</div>
+            </div>
+            
+            <script src="scripts.js" defer></script>
+        </div>
+        <div class="footer-container">
+        <footer class="bottom">Copyright &copy; Maninder Pahal</footer>
+        </div>
+    </div>
 </body>
 </html>
