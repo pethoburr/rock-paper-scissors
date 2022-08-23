@@ -8,7 +8,7 @@ ul {
 h1 {
     text-align: center;
     margin: 0x;
-    padding: 80px;
+    padding: 40px;
     border: 0px;
     color:white;
 }
@@ -26,12 +26,12 @@ p {
 
 #score {
     font-weight: bold;
-    font-size: 180px;
-    padding: 30px;
+    font-size: 80px;
+    padding: 15px;
 }
 
 #title {
-    font-size: 180px;
+    font-size: 80px;
 }
 
 .results {
@@ -40,41 +40,41 @@ p {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    font-size: 40px;
-    margin-top: 80px;
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 .message {
     text-align: center;
-    font-size: 200px;
-    padding: 100px;
+    font-size: 100px;
+    padding: 50px;
 }
 
 body {
-    font-family: 'Callie Chalk Font', sans-serif;
+    font-family: 'Courier New', monospace;
     background-image: url("chalkboard.jpg");
     background-size: cover;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 20px;
     color:white;
 }
 
 p {
-    font-size: 80px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 li {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .button {
     background-color: rgb(101, 78, 9);
     border-radius: 20px;
     color: white;
-    padding: 30px;
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 20px;
 
 }
 
@@ -83,9 +83,9 @@ li {
     color: white;
     text-align: center;
     width: 100%;
-    padding: 40px;
-    font-size: 30px;
-    margin-top: 40px;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 .page-container {
@@ -112,7 +112,7 @@ html, body {
     background-color: rgb(101, 78, 9);
     border-radius: 20px;
     color: white;
-    padding: 30px;
+    padding: 15px;
     
 }
 
@@ -120,39 +120,39 @@ html, body {
     background-color: rgb(101, 78, 9);
     border-radius: 20px;
     color: white;
-    padding: 30px;
+    padding: 15px;
 }
 
 .scissors {
     background-color: rgb(101, 78, 9);
     border-radius: 20px;
     color: white;
-    padding: 30px;
+    padding: 15px;
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .btn-primary {
-    margin: 40px;
-    margin-top: 15px;
-    font-size: 40px;
+    margin: 20px;
+    margin-top: 8px;
+    font-size: 20px;
     background-color: rgb(101, 78, 9);
-    padding: 30px;
+    padding: 15px;
 }
 
 .modal-title {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .modal-body {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .btn-secondary {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .winner {
@@ -169,15 +169,15 @@ img {
 
 .winner, .loser, .draw {
     text-align: center;
-    font-size: 30px;
-    margin-top: 80px;
-    padding: 50px;
+    font-size: 15px;
+    margin-top: 40px;
+    padding: 25px;
     color: black;
     font-weight: 900;
 }
 
 .scoreboard {
-    padding: 30px;
+    padding: 15px;
 }
 
 .modal-content {
